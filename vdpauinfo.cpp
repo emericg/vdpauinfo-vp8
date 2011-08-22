@@ -346,6 +346,10 @@ Desc decoder_profiles[] = {
 {"DIVX5_MOBILE",       VDP_DECODER_PROFILE_DIVX5_MOBILE},
 {"DIVX5_HOME_THEATER", VDP_DECODER_PROFILE_DIVX5_HOME_THEATER},
 {"DIVX5_HD_1080P",     VDP_DECODER_PROFILE_DIVX5_HD_1080P},
+{"VP8_V0",             VDP_DECODER_PROFILE_VP8_V0},
+{"VP8_V1",             VDP_DECODER_PROFILE_VP8_V1},
+{"VP8_V2",             VDP_DECODER_PROFILE_VP8_V2},
+{"VP8_V3",             VDP_DECODER_PROFILE_VP8_V3},
 };
 const size_t decoder_profile_count = sizeof(decoder_profiles)/sizeof(Desc);
 
